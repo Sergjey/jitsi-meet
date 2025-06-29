@@ -130,7 +130,7 @@ export class Participant {
         try {
             return await this.driver.execute(script, ...args);
         } catch (error) {
-            console.error('An error occured while trying to execute a script: ', error);
+            console.error('An error occurred while trying to execute a script: ', error);
             throw error;
         }
     }
